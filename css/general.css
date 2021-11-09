@@ -44,6 +44,11 @@ h2{
     position: fixed;
     bottom: 30px;
     right: 30px;
+    animation: 0.3s all ease;
+}
+
+.arriba:hover .fa-angle-up{
+    color: rgb(255, 10, 255);
 }
 
 .visible{
@@ -252,6 +257,7 @@ h2{
 
 .img-seccion{
     margin-top: 75px;
+    width: 20%;
     max-width: 20%;
     border-radius: 50%;
 }
@@ -506,6 +512,11 @@ h2{
     color: rgb(255, 255, 255);
     margin: 25px 35px;
     font-size: 50px;
+    transition: 0.3s all ease;
+}
+
+.fa-instagram:hover, .fa-facebook-square:hover, .fa-whatsapp:hover, .fa-envelope:hover, .fa-mobile:hover{
+    color: rgb(255, 10, 255);
 }
 
 .barra{
