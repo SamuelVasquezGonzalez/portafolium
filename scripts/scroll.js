@@ -11,12 +11,3 @@ window.addEventListener("scroll", function(){
     men.classList.toggle("men",window.scrollY>1780);
     iCon.classList.toggle("fa-bars2",window.scrollY>1780);
 });
-
-let menu = document.querySelector("#menu");
-let more = document.querySelector("#more");
-
-more.addEventListener('click', function(){
-
-    menu.classList.toggle('toggle');
-
-});

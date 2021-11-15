@@ -226,6 +226,16 @@ h2{
 }
 
 
+.comentarios{
+    width: 95%;
+    margin-top: 120px;
+    margin-bottom: 80px;
+    background-color: white;
+    padding: 80px 100px 15px 100px;
+    height: auto;
+    box-shadow: 0 0 10px black;
+}
+
 .servicios .ser, .ps{
     color: white;
 }
@@ -508,14 +518,14 @@ h2{
     display: flex;
 }
 
-.fa-instagram, .fa-facebook-square, .fa-whatsapp, .fa-envelope, .fa-mobile{
+.fa-instagram, .fa-facebook-square, .fa-whatsapp, .fa-envelope, .fa-mobile, .fa-comments{
     color: rgb(255, 255, 255);
     margin: 25px 35px;
     font-size: 50px;
     transition: 0.3s all ease;
 }
 
-.fa-instagram:hover, .fa-facebook-square:hover, .fa-whatsapp:hover, .fa-envelope:hover, .fa-mobile:hover{
+.fa-instagram:hover, .fa-facebook-square:hover, .fa-whatsapp:hover, .fa-envelope:hover, .fa-mobile:hover, .fa-comments:hover{
     color: rgb(255, 10, 255);
 }
 
@@ -685,6 +695,10 @@ h2{
 
 
 @media screen and (max-width: 550px) {
+    .comentarios{
+        padding: 80px 25px 15px 25px;
+    }
+    
     .banner-wrapper{
         flex-direction: column;
     }
